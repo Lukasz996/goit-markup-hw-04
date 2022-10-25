@@ -115,6 +115,16 @@ ul {
 	align-items: center;
 	margin-right: 10px;
 }
+
+a.link-grey{
+	display: flex;
+	align-items: center;
+}
+
+/* .mb-2{
+	margin-bottom: -3px;
+} */
+
 /* main index */
 
 .main-top {
@@ -201,7 +211,7 @@ ul {
 .social-links {
 	display: flex;
 	justify-content: space-around;
-	margin: 0 ;
+	margin: 0;
 	padding-left: 32px;
 	padding-right: 32px;
 	padding-bottom: 30px;
@@ -331,7 +341,6 @@ ul {
 	--color4: var(--color-blue);
 	--color2: var(--color-blue);
 	border-color: var(--color-blue);
-	transition: all 0.4s;
 }
 
 /* footer */
@@ -422,7 +431,10 @@ ul {
 	background: rgba(255, 255, 255, 0.1);
 }
 
-
+a.footer-social-links{
+	display: flex;
+	align-items: center;
+}
 .footer-social-links li:hover {
 	background-color: var(--color-blue);
 	transition: all 0.4s;
@@ -503,6 +515,12 @@ ul {
 .link-grey-footer:focus {
 	text-decoration: none;
 	color: var(--color-blue);
+}
+
+.link-grey:hover,
+.link-grey:focus {
+	--color2: var(--color-blue);
+	--color5: var(--color-blue);
 }
 
 .portfolio-buttons button:hover,
