@@ -111,10 +111,10 @@ ul {
 .icon-mail {
 	margin: 0;
 	padding: 0;
-	align-content: center;
+	justify-content: center;
+	align-items: center;
 	margin-right: 10px;
 }
-
 /* main index */
 
 .main-top {
@@ -176,7 +176,6 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
 	width: 270px;
 	height: 120px;
 	margin-bottom: 30px;
@@ -202,12 +201,11 @@ ul {
 .social-links {
 	display: flex;
 	justify-content: space-around;
-	margin: 0 auto;
+	margin: 0 ;
 	padding-left: 32px;
 	padding-right: 32px;
 	padding-bottom: 30px;
 	list-style: none;
-	align-content: center;
 	--color3: #afb1b8;
 }
 
@@ -215,6 +213,7 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-top: 4px;
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
@@ -330,6 +329,7 @@ ul {
 
 .our-customers li:hover {
 	--color4: var(--color-blue);
+	--color2: var(--color-blue);
 	border-color: var(--color-blue);
 	transition: all 0.4s;
 }
@@ -415,15 +415,17 @@ ul {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding-top: 4px;
 	height: 44px;
 	width: 44px;
 	border-radius: 50%;
 	background: rgba(255, 255, 255, 0.1);
 }
 
+
 .footer-social-links li:hover {
-	transition: all 0.4s;
 	background-color: var(--color-blue);
+	transition: all 0.4s;
 }
 
 /* portfolio */
