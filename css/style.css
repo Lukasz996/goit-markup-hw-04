@@ -116,7 +116,7 @@ ul {
 	margin-right: 10px;
 }
 
-a.link-grey{
+a.link-grey {
 	display: flex;
 	align-items: center;
 }
@@ -431,7 +431,7 @@ a.link-grey{
 	background: rgba(255, 255, 255, 0.1);
 }
 
-a.footer-social-links{
+a.footer-social-links {
 	display: flex;
 	align-items: center;
 }
@@ -469,7 +469,7 @@ a.footer-social-links{
 	background-color: var(--vlight-gray);
 }
 
-/* div grid */
+/* div flex */
 
 .flex-container {
 	display: flex;
@@ -534,4 +534,9 @@ a.footer-social-links{
 	color: var(--white);
 	background-color: var(--color-blue);
 	border-color: var(--color-blue);
+}
+
+.flex-item:hover {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
 }
